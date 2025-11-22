@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labb 1 JavaScirpt</title>
+    <script src="script.js" defer></script>
+
+    <!-- Reflektion uppgift 1:
+     1: PLacering av <Script> taggen spelar jätte stor roll vart den är placerad.
+       Eftersom Scriptet körs så fort webbläsaren när taggen. Så om man lägger <head> så körs scripten innan html-elementen sam kan skapa fel
+        Om man lägger istället taggen för <body> så hinner HTML ladda sen scripten får tillgång till all i dom.
+            
+            
+     2: Attributen "defer" gör att scriptet ladda parallellt men inte körs fören hela html koden är färdigladdat-->
+</head>
+<body>
+    <h1> JavaScirpt Labb 1</h1>
+    <p> Öppna konoslen för att se alla output. </p>
+
+</body>
+</html>
